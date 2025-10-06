@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anugraha Care Home - Senior Care Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-heart"></i> Anugraha Care Home</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#facilities" class="nav-link">Facilities</a>
+                <a href="#admissions" class="nav-link">Admissions</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Compassionate Care for Golden Years</h1>
+            <p>Providing loving, professional care in a home-like environment where seniors thrive with dignity and respect</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('admissions')">Schedule a Tour</button>
+                <button class="btn-secondary" onclick="scrollToSection('contact')">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Welcome to Golden Years Haven</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Philosophy</h3>
+                    <p>At Golden Years Haven, we believe every senior deserves to live their golden years with dignity, comfort, and joy. Our family-oriented approach ensures personalized care that honors each resident's unique life story.</p>
+                    
+                    <h3>Why Choose Us?</h3>
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-user-md"></i>
+                            <div>
+                                <h4>24/7 Medical Care</h4>
+                                <p>Round-the-clock nursing and medical supervision</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-utensils"></i>
+                            <div>
+                                <h4>Nutritious Meals</h4>
+                                <p>Chef-prepared meals tailored to dietary needs</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Loving Environment</h4>
+                                <p>Warm, family-like atmosphere with compassionate staff</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Happy seniors socializing">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Care Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-bed"></i>
+                    <h3>Assisted Living</h3>
+                    <p>Personalized assistance with daily activities while promoting independence</p>
+                    <ul>
+                        <li>Medication management</li>
+                        <li>Personal care assistance</li>
+                        <li>Mobility support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-memory"></i>
+                    <h3>Memory Care</h3>
+                    <p>Specialized care for residents with Alzheimer's and dementia</p>
+                    <ul>
+                        <li>Secure environment</li>
+                        <li>Cognitive therapies</li>
+                        <li>Specialized activities</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Respite Care</h3>
+                    <p>Short-term stays for recovery or to give caregivers a break</p>
+                    <ul>
+                        <li>Temporary care</li>
+                        <li>Recovery support</li>
+                        <li>Flexible scheduling</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Medical Care</h3>
+                    <p>Comprehensive health monitoring and medical services</p>
+                    <ul>
+                        <li>24/7 nursing care</li>
+                        <li>Physical therapy</li>
+                        <li>Medication management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2 class="section-title">Our Facilities</h2>
+            <div class="facilities-content">
+                <div class="facility-item">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Comfortable senior living room">
+                    </div>
+                    <div class="facility-text">
+                        <h3>Comfortable Living Spaces</h3>
+                        <p>Private and semi-private rooms with emergency call systems, comfortable furniture, and personal temperature control. Each room is designed for safety and comfort.</p>
+                    </div>
+                </div>
+                <div class="facility-item reverse">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1557220268-185121c8b720?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dining area for seniors">
+                    </div>
+                    <div class="facility-text">
+                        <h3>Dining & Social Areas</h3>
+                        <p>Beautiful dining rooms serving nutritious meals prepared by our chef, plus common areas for socializing, activities, and family visits. Our dining experience promotes community and enjoyment.</p>
+                    </div>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1543333995-a78aea2eee50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beautiful garden for seniors">
+                    </div>
+                    <div class="facility-text">
+                        <h3>Outdoor Spaces</h3>
+                        <p>Secure gardens, walking paths with handrails, and comfortable patio areas with shade for enjoying fresh air and nature. Our outdoor spaces are designed for safety and relaxation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities">
+        <div class="container">
+            <h2 class="section-title">Daily Activities & Engagement</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Music & Entertainment</h3>
+                    <p>Live music, singing sessions, and musical therapy</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Arts & Crafts</h3>
+                    <p>Painting, pottery, and creative workshops</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Reading & Discussion</h3>
+                    <p>Book clubs and stimulating conversations</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-walking"></i>
+                    <h3>Exercise Programs</h3>
+                    <p>Gentle yoga, chair exercises, and walking groups</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Cooking Classes</h3>
+                    <p>Baking and cooking demonstrations</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Games & Puzzles</h3>
+                    <p>Card games, board games, and brain teasers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="admissions">
+        <div class="container">
+            <h2 class="section-title">Admissions Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Initial Inquiry</h3>
+                    <p>Contact us for information and schedule a tour</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Assessment</h3>
+                    <p>Comprehensive care needs assessment</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Paperwork</h3>
+                    <p>Complete admission forms and documentation</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Welcome Home</h3>
+                    <p>Smooth transition and settling in</p>
+                </div>
+            </div>
+            <div class="admission-cta">
+                <h3>Ready to Learn More?</h3>
+                <p>Contact us today to schedule a personal tour and meet our caring team.</p>
+                <button class="btn-primary" onclick="scrollToSection('contact')">Schedule a Tour</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>Angraha Care Home, KK Road, Kottayam<br>Kottayam, Kerala</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>04828 247765</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>info@anugrahacare.it.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Visiting Hours</h4>
+                            <p>Daily: 8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">I'm interested in...</option>
+                                <option value="assisted-living">Assisted Living</option>
+                                <option value="memory-care">Memory Care</option>
+                                <option value="respite-care">Respite Care</option>
+                                <option value="tour">Schedule a Tour</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-heart"></i> Anugraha Care Home</h3>
+                    <p>Providing compassionate, professional care for seniors in a warm, home-like environment since 2005.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#admissions">Admissions</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="#services">Assisted Living</a>
+                    <a href="#services">Memory Care</a>
+                    <a href="#services">Respite Care</a>
+                    <a href="#services">Medical Care</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Admission Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Anugraha Care Home. All rights reserved. Licensed Care Facility #C123456</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Emergency Contact Bar -->
+    <div class="emergency-bar">
+        <div class="container">
+            <span><i class="fas fa-phone-alt"></i> 24/7 Emergency Line: (555) 911-HELP</span>
+            <button onclick="scrollToSection('contact')">Immediate Assistance</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
