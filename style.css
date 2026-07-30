@@ -17,11 +17,19 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text);
     overflow-x: hidden;
     background-color: var(--warm);
+}
+
+h1, h2, h3, h4,
+.nav-logo h2,
+.section-title,
+.step-number {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
 }
 
 .container {
@@ -58,6 +66,14 @@ body {
 .nav-logo i {
     color: var(--gold);
     margin-right: 10px;
+}
+
+.nav-logo .tagline-ml {
+    display: block;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-top: 2px;
 }
 
 .nav-menu {
@@ -572,6 +588,42 @@ section {
 
 .emergency-bar button:hover {
     background: #c19b2c;
+}
+
+/* Static Page Header (e.g. Privacy Policy) */
+.page-header {
+    background: linear-gradient(rgba(44, 85, 48, 0.9), rgba(44, 85, 48, 0.85));
+    padding: 160px 0 60px;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+}
+
+.policy-content {
+    padding: 80px 0;
+    background: var(--light);
+}
+
+.policy-content .container {
+    max-width: 800px;
+}
+
+.policy-content .lede {
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+.policy-content h2 {
+    color: var(--primary);
+    margin: 2rem 0 1rem;
+}
+
+.policy-content p {
+    margin-bottom: 1rem;
 }
 
 /* Animations */
